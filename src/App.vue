@@ -1,11 +1,13 @@
 <script setup>
 import Todos from "./components/Todos.vue";
 import AddTodo from "@/components/AddTodo.vue";
+import FilterTodos from "@/components/FilterTodos.vue";
 </script>
 
 <template>
   <div class="container">
     <AddTodo />
+    <FilterTodos />
     <Todos />
   </div>
 </template>
