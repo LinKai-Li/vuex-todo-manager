@@ -1,9 +1,11 @@
 <script setup>
 import Todos from "./components/Todos.vue";
+import AddTodo from "@/components/AddTodo.vue";
 </script>
 
 <template>
   <div class="container">
+    <AddTodo />
     <Todos />
   </div>
 </template>
